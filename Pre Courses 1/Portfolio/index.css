@@ -1,0 +1,45 @@
+body {
+    background: conic-gradient(from 45deg,
+            #020681 0,
+            #020681 90deg,
+            #000337 90deg,
+            #000337 180deg,
+            #0818ff 180deg,
+            #0818ff 270deg,
+            #0f9bfe 270deg,
+            #0f9bfe 360deg);
+    background-size: 1em 1em;
+    height: 100vh;
+}
+
+table {
+    border-spacing: 0.5rem;
+}
+
+td {
+    padding: 00.5rem;
+}
+
+td:nth-child(1) {
+    background: hsl(150, 50%, 50%);
+}
+
+td:nth-child(2) {
+    background: hsl(160, 60%, 50%);
+}
+
+td:nth-child(3) {
+    background: hsl(170, 70%, 50%);
+}
+
+td:nth-child(4) {
+    background: hsl(180, 80%, 50%);
+}
+
+td:nth-child(5) {
+    background: hsl(190, 90%, 50%);
+}
+
+td:nth-child(6) {
+    background: hsl(200, 99%, 50%);
+}
